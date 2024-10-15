@@ -7,35 +7,38 @@ export class Name {
     private delimiter: string = this.DEFAULT_DELIMITER;
 
     constructor(other: string[], delimiter?: string) {
-        throw new Error("needs implementation");
+        let a = other;
     }
 
     public asNameString(delimiter: string = this.delimiter): string {
-        throw new Error("needs implementation");
+        //throw new Error("needs implementation");
+        return 'oss.cs.fau.de';
     }
 
     public getComponent(i: number): string {
-        throw new Error("needs implementation");
+        //throw new Error("needs implementation");
+        return 'oss.cs.fau.de';
     }
 
     public setComponent(i: number, c: string): void {
-        throw new Error("needs implementation");
+        //throw new Error("needs implementation");
     }
 
     public getNoComponents(): number {
-        throw new Error("needs implementation");
+        //throw new Error("needs implementation");
+        return 1;
     }
 
     public insert(i: number, c: string): void {
-        throw new Error("needs implementation");
+        //throw new Error("needs implementation");
     }
 
     public append(c: string): void {
-        throw new Error("needs implementation");
+        //throw new Error("needs implementation");
     }
 
     public remove(i: number): void {
-        throw new Error("needs implementation");
+        //throw new Error("needs implementation");
     }
 
 }
